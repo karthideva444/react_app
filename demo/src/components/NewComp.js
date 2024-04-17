@@ -41,9 +41,7 @@ function NewComp() {
         <button onClick={handleAgeChangereset}>Reset</button>
         {bool ? <h2>TRUE</h2> : <h2>FALSE</h2>}
         <button onClick={handleBoolChange}> render</button>
-
-
-        
+              
     </div>
   )
 }
