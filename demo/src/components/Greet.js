@@ -8,10 +8,9 @@ import React from 'react'
 //   )
 // }
 const Greet = (props) =>{
-    console.log();
     return (
         <div>
-            <h1>Hello </h1>
+            <h1>Hello {props.welcomemsg} </h1>
         </div>
     )
 }

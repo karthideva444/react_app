@@ -9,7 +9,8 @@ class App extends Component {
       return (
         <div className="App">
           <Hello name="bruce" heroName="batman"/>
-          <Greet name="clark" heroName="superman"/>
+          <Hello name="clark" heroName="superman"/>
+          <Greet welcomemsg="nice to meet you"/>
         </div>
       );
     }
