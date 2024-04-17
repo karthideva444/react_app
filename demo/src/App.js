@@ -5,6 +5,8 @@ import Hello from './Hello';
 import Welcome from './components/Welcome';
 import NewComp from './components/NewComp';
 import Newcomp2 from './components/Newcomp2';
+import HookCounter from './components/HookCounter';
+import HookCounterOne from './components/HookCounterOne';
 
 class App extends Component {
 
@@ -22,13 +24,13 @@ class App extends Component {
           <Welcome name="bruce" heroName="batman"/>
           <Welcome name="clark" heroName="Superman"/>
           <Welcome name="diana" heroName="aquaman"/> */}
-          <Newcomp2 />
-          <NewComp />
-          ,
+          {/* <Newcomp2 />
+          <NewComp /> */}
+          {/* <HookCounter /> */}
+          <HookCounterOne />
         </div>
       );
     }
 }
-
 
 export default App;

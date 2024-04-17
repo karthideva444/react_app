@@ -28,11 +28,11 @@ function NewComp() {
     }
   return (
     <div>
-        {/* <h2>           
+        <h2>           
             {name}
         </h2>
         <button onClick={handleNameChange}>press</button>
-        <input type="text" onChange={(e)=>{handleNameChange(e)}} /> */}
+        <input type="text" onChange={(e)=>{handleNameChange(e)}} />
         <br />
         <button onClick={handleAgeChangeadd}>+</button>
         <h1>{age}</h1>
@@ -41,7 +41,7 @@ function NewComp() {
         <button onClick={handleAgeChangereset}>Reset</button>
         {bool ? <h2>TRUE</h2> : <h2>FALSE</h2>}
         <button onClick={handleBoolChange}> render</button>
-              
+
     </div>
   )
 }
