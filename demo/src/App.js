@@ -10,6 +10,7 @@ import React,{Component} from 'react';
 // import HookMouse from './components/HookMouse';
 // import MouseContainer from './components/MouseContainer';
 import IntervalClassCounter from './components/IntervalClassCounter';
+import IntervalHookCounter from './components/IntervalHookCounter';
 
 class App extends Component {
 
@@ -34,6 +35,7 @@ class App extends Component {
           {/* <HookMouse /> */}
            {/* <MouseContainer/> */}
            <IntervalClassCounter />
+           <IntervalHookCounter />
         </div>
       );
     }

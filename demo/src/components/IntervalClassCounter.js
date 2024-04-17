@@ -7,7 +7,7 @@ class IntervalClassCounter extends Component {
     }
 
     componentDidMount () {
-        this.interval = setInterval(this.tick, 2000)
+        this.interval = setInterval(this.tick, 1000)
     }
     componentWillUnmount () {
         clearInterval(this.interval)
