@@ -7,6 +7,7 @@ import NewComp from './components/NewComp';
 import Newcomp2 from './components/Newcomp2';
 import HookCounter from './components/HookCounter';
 import HookCounterOne from './components/HookCounterOne';
+import HookMouse from './components/HookMouse';
 
 class App extends Component {
 
@@ -27,7 +28,8 @@ class App extends Component {
           {/* <Newcomp2 />
           <NewComp /> */}
           {/* <HookCounter /> */}
-          <HookCounterOne />
+          {/* <HookCounterOne /> */}
+          <HookMouse />
         </div>
       );
     }
