@@ -1,13 +1,14 @@
 import './App.css';
 import React,{Component} from 'react';
-import Greet from './components/Greet';
-import Hello from './Hello';
-import Welcome from './components/Welcome';
-import NewComp from './components/NewComp';
-import Newcomp2 from './components/Newcomp2';
-import HookCounter from './components/HookCounter';
-import HookCounterOne from './components/HookCounterOne';
-import HookMouse from './components/HookMouse';
+// import Greet from './components/Greet';
+// import Hello from './Hello';
+// import Welcome from './components/Welcome';
+// import NewComp from './components/NewComp';
+// import Newcomp2 from './components/Newcomp2';
+// import HookCounter from './components/HookCounter';
+// import HookCounterOne from './components/HookCounterOne';
+// import HookMouse from './components/HookMouse';
+import MouseContainer from './components/MouseContainer';
 
 class App extends Component {
 
@@ -29,10 +30,12 @@ class App extends Component {
           <NewComp /> */}
           {/* <HookCounter /> */}
           {/* <HookCounterOne /> */}
-          <HookMouse />
+          {/* <HookMouse /> */}
+           <MouseContainer/>
         </div>
       );
     }
 }
+
 
 export default App;
